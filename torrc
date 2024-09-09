@@ -5,5 +5,5 @@ SocksPort 0.0.0.0:9050
 Log notice stdout
 RunAsDaemon 0
 ControlPort 9051
-CookieAuthentication 0
-
+HashedControlPassword 16:287280FEBDEF65D660767181CF49AF9FBEACB9EC5FCEAC677FBCA4DF3F
+CookieAuthentication 1
