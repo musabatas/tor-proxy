@@ -3,4 +3,4 @@
 
 SocksPort 0.0.0.0:9050
 Log notice stdout
-RunAsDaemon 1
+RunAsDaemon 0
