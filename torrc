@@ -7,3 +7,5 @@ RunAsDaemon 0
 ControlPort 9051
 HashedControlPassword 16:287280FEBDEF65D660767181CF49AF9FBEACB9EC5FCEAC677FBCA4DF3F
 CookieAuthentication 1
+ExitNodes {CA},{US}
+StrictNodes 1
