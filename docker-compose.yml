@@ -1,0 +1,12 @@
+
+version: '3'
+services:
+  tor:
+    build: .
+    container_name: torproxy
+    restart: always
+    ports:
+      - "9050:9050"  # This is the port used for the SOCKS proxy
+    environment:
+      - TOR_SOCKS_PORT=9050
+    command: tor
